@@ -1,0 +1,51 @@
+.button-crunchy {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	font-size:15px;
+	padding:10px 40px;
+	text-decoration:none;
+}
+.button-crunchy:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.button-crunchy:active {
+	position:relative;
+	top:1px;
+}
+
+.button-crunchy-purple {
+    border:2px solid #bf1bbf;
+    color:#bf1bbf;
+}
+
+.button-crunchy-red {
+    border:2px solid red;
+    color: red;
+}
+
+.button-crunchy-grey {
+    border:2px solid grey;
+    color: grey;
+}
+
+.button-separator {
+	margin-right: 10px;
+}
+
+/* Mobile */
+
+@media (min-width: 366px) and (max-width: 768px) {
+	.button-separator {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 366px) {
+	.button-separator {
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+}
